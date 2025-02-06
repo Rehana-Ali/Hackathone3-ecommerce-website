@@ -1,0 +1,42 @@
+ Marketplace Builder Hackathon 2025 - Day 2: Architecting the Future
+Hey, Hackathon fam! 👋 Day 2 was all about strategic moves—designing the system architecture, defining integration flows, and setting the foundation for a seamless marketplace. Let’s dive in!
+
+🏗️ System Architecture: The Blueprint
+The goal? Scalable, efficient, and intuitive.
+
+Frontend: Built with Next.js, styled with Tailwind CSS, powered by ShadCN UI components. State managed via Zustand for sleek performance.
+Backend: Sanity.io as the CMS powerhouse, connected with robust API routes.
+Data Flow: RESTful API calls handling CRUD operations like a charm—GET, POST, PUT, DELETE.
+🌐 Third-Party API Magic
+To level up, I’m integrating a third-party API for:
+💳 Payment Processing | 📦 Product Availability
+
+🔑 How It Works:
+
+Frontend → Backend: Sends user actions as API requests.
+Backend → Third-Party API: Processes, authenticates (via API keys + HTTPS), and fetches data.
+Response Loop: Data flows back to the frontend to update the UI in real time.
+🚀 API Routes in Action
+GET /api/products → Fetch all products
+POST /api/order → Create a new order (linked with the payment gateway)
+GET /api/order/:id → Retrieve specific order details
+PUT /api/order/:id → Update order status (e.g., Shipped, Delivered)
+GET /api/payment/verify → Secure payment verification
+🛠️ Tech Stack Snapshot
+Frontend: Next.js, Tailwind CSS, ShadCN UI, Zustand
+Backend: Sanity.io
+Auth: Clerk for secure logins
+Third-Party API: Handling payments + inventory
+🔗 What’s Next?
+Implement API routes
+Integrate third-party services
+Begin frontend development to connect the dots
+✨ Day 2 Wins:
+✅ System design crafted
+✅ API structure defined
+✅ Third-party integration planned
+
+Let’s turn this architecture into a living, breathing marketplace. On to Day 3! 🚀
+
+#HackathonJourney #MarketplaceBuilder #TechStack #APIDesign #NextJS #Sanity #Zustand #ThirdPartyIntegration #EcommerceDev
+
