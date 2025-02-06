@@ -1,0 +1,82 @@
+**Test Cases for Product Listing and Details**
+
+---
+
+**Test Case ID:** TC001  
+**Title:** Verify Product Listing Page Loads  
+**Description:** Ensure the product listing page loads correctly with dynamic content.  
+**Preconditions:** User has access to the homepage.  
+**Test Steps:**  
+1. Open the homepage.  
+2. Scroll to the product listing section.  
+**Expected Result:** The product listing page displays all products dynamically.  
+**Actual Result:** Product listing page loaded successfully.  
+**Status:** Passed  
+**Severity Level:** Low  
+**Assigned To:** N/A  
+**Remarks:** Works as expected.  
+
+---
+
+**Test Case ID:** TC002  
+**Title:** Verify Search Functionality  
+**Description:** Validate the search functionality to ensure accurate product retrieval.  
+**Preconditions:** User is on the homepage with the search bar visible.  
+**Test Steps:**  
+1. Enter a product name in the search bar.  
+2. Press Enter.  
+**Expected Result:** Products matching the search query are displayed.  
+**Actual Result:** Correct products are shown based on the search query.  
+**Status:** Passed  
+**Severity Level:** Low  
+**Assigned To:** N/A  
+**Remarks:** Search works without issues.  
+
+---
+
+**Test Case ID:** TC003  
+**Title:** Check Pagination on Product List  
+**Description:** Verify pagination works seamlessly for product listings.  
+**Preconditions:** Product list has multiple pages.  
+**Test Steps:**  
+1. Scroll to the bottom of the product listing page.  
+2. Click on the "Next Page" button.  
+**Expected Result:** Products for the next page are displayed correctly.  
+**Actual Result:** Pagination loads products for the next page seamlessly.  
+**Status:** Passed  
+**Severity Level:** Medium  
+**Assigned To:** N/A  
+**Remarks:** Optimize for faster loading.  
+
+---
+
+**Test Case ID:** TC004  
+**Title:** Validate API Integration for Product Details  
+**Description:** Ensure product details are fetched dynamically from the API.  
+**Preconditions:** Products are available with detailed information via API.  
+**Test Steps:**  
+1. Click on any product card.  
+2. Observe the product detail page.  
+**Expected Result:** Product details load dynamically via API.  
+**Actual Result:** API returned correct data, and the page rendered successfully.  
+**Status:** Passed  
+**Severity Level:** Low  
+**Assigned To:** N/A  
+**Remarks:** API response time optimized.  
+
+---
+
+**Test Case ID:** TC005  
+**Title:** Test Responsiveness on Mobile  
+**Description:** Verify that the website layout adjusts correctly on mobile devices.  
+**Preconditions:** Access to mobile devices or emulators.  
+**Test Steps:**  
+1. Open the site on a mobile device.  
+2. Check if all components are responsive.  
+**Expected Result:** Layout adjusts seamlessly to mobile screens.  
+**Actual Result:** Some components overlap on smaller screens.  
+**Status:** Failed  
+**Severity Level:** High  
+**Assigned To:** Frontend Developer  
+**Remarks:** Needs urgent CSS fixes.
+
