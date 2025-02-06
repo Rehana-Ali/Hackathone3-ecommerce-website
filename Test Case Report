@@ -1,0 +1,11 @@
+
+
+"Test Case ID","Test Case Description","Test Steps","Expected Result","Actual Result","Pass/Fail","Comments"
+"TC001","Import data to Sanity through API","1. Send API request to import data to Sanity. 2. Verify data is imported successfully.","Data should be imported successfully.","Data was imported successfully.","Pass",""
+"TC002","Fetch data from Sanity to website","1. Send API request to fetch data from Sanity. 2. Verify data is fetched successfully.","Data should be fetched successfully.","Data was fetched successfully.","Pass",""
+"TC003","Design website dynamically","1. Verify website layout is dynamic. 2. Verify website content is updated dynamically.","Website layout and content should be updated dynamically.","Website layout and content were updated dynamically.","Pass",""
+"TC004","Add to cart functionality","1. Add product to cart. 2. Verify cart is updated successfully.","Cart should be updated successfully.","Cart was updated successfully.","Pass",""
+"TC005","Add to cart functionality with multiple products","1. Add multiple products to cart. 2. Verify cart is updated successfully.","Cart should be updated successfully.","Cart was updated successfully.","Pass",""
+"TC006","Remove product from cart","1. Remove product from cart. 2. Verify cart is updated successfully.","Cart should be updated successfully.","Cart was updated successfully.","Pass",""
+"TC007","Update product quantity in cart","1. Update product quantity in cart. 2. Verify cart is updated successfully.","Cart should be updated successfully.","Cart was updated successfully.","Pass",""
+"TC008","Checkout functionality","1. Proceed to checkout. 2. Verify checkout is successful.","Checkout should be successful.","Checkout was successful.","Pass",""
