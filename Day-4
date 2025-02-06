@@ -1,0 +1,68 @@
+🛒 **E-Commerce Hackathon Project**  
+*Built in 24 hours for the Marketplace Builder Hackathon 2025*
+
+---
+
+## 🚀 **Project Overview**
+Experience the future of online shopping with our responsive, user-friendly e-commerce platform. Designed with cutting-edge UI/UX principles, this platform ensures seamless navigation, clean aesthetics, and optimized performance across all devices.
+
+## 🎯 **Key Features**
+- **📱 Responsive Design:** Optimized layouts for mobile, tablet, and desktop views.
+- **🛍️ Dynamic Product Grid:** Showcase products with interactive cards and intuitive grid layouts.
+- **🔍 Advanced Filters:** Sidebar filters for effortless product discovery.
+- **✨ Modern UI:** Sleek typography, smooth hover effects, and engaging animations.
+- **⚡ Scalable Architecture:** Easily extendable to support future features and pages.
+
+## 🛠️ **Tech Stack**
+- **Frontend:** Next.js, React.js, Tailwind CSS, ShadCN UI
+- **State Management:** Zustand
+- **CMS:** Sanity.io
+- **Authentication:** Clerk
+- **Development Tools:** TypeScript, ESLint, Prettier
+
+## 📂 **Folder Structure**
+```
+src/
+├── components/
+│   ├── cards/
+│   ├── filters/
+│   ├── global/
+│   └── layout/
+├── app/
+│   ├── page.tsx
+│   └── shop/
+├── context/
+│   └── CartContext.tsx
+```
+
+## 🚀 **Getting Started**
+1. **Clone the Repository:**  
+   ```bash
+   git clone https://github.com/your-username/ecommerce-hackathon.git
+   ```
+2. **Navigate to the Project Directory:**  
+   ```bash
+   cd ecommerce-hackathon
+   ```
+3. **Install Dependencies:**  
+   ```bash
+   npm install
+   ```
+4. **Start the Development Server:**  
+   ```bash
+   npm run dev
+   ```
+5. **Open in Browser:**  
+   Visit [http://localhost:3000](http://localhost:3000) to explore the app.
+
+---
+
+## 💡 **Future Enhancements**
+- Integration with payment gateways
+- User profiles and order history
+- Real-time product recommendations
+
+---
+
+**Made with ❤️ at Marketplace Builder Hackathon 2025**
+
